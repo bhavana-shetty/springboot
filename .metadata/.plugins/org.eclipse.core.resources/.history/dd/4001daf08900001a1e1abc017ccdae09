@@ -1,0 +1,20 @@
+package com.example.demo.service;
+
+
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.example.demo.Employee;
+
+@Service
+@Transactional
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public Employee save(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
